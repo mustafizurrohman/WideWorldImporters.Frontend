@@ -5,7 +5,12 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardHomeComponent } from './dashboard-home/dashboard-home.component';
 
 @NgModule({
-  declarations: [DashboardHomeComponent],
+  declarations: [
+    DashboardHomeComponent
+  ],
+  exports: [
+    DashboardHomeComponent
+  ],
   imports: [
     CommonModule,
     DashboardRoutingModule
